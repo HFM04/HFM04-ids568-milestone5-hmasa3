@@ -1,0 +1,21 @@
+{
+  "label": "single_request_baseline",
+  "total_requests": 20,
+  "successful": 20,
+  "failed": 0,
+  "cached": 0,
+  "cache_hit_rate": 0.0,
+  "latency_ms": {
+    "min": 89.69,
+    "max": 104.39,
+    "mean": 97.99,
+    "median": 97.82,
+    "p50": 97.69,
+    "p75": 98.63,
+    "p95": 100.69,
+    "p99": 100.69,
+    "stdev": 2.59
+  },
+  "throughput_rps": 10.15,
+  "elapsed_s": 1.97
+}

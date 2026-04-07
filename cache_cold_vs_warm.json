@@ -1,0 +1,43 @@
+{
+  "cold": {
+    "label": "cold_cache",
+    "total_requests": 15,
+    "successful": 15,
+    "failed": 0,
+    "cached": 7,
+    "cache_hit_rate": 0.4667,
+    "latency_ms": {
+      "min": 1.79,
+      "max": 110.72,
+      "mean": 57.6,
+      "median": 100.81,
+      "p50": 6.2,
+      "p75": 103.16,
+      "p95": 109.21,
+      "p99": 109.21,
+      "stdev": 52.6
+    },
+    "pass": "cold"
+  },
+  "warm": {
+    "label": "warm_cache",
+    "total_requests": 15,
+    "successful": 15,
+    "failed": 0,
+    "cached": 15,
+    "cache_hit_rate": 1.0,
+    "latency_ms": {
+      "min": 4.35,
+      "max": 12.79,
+      "mean": 7.69,
+      "median": 7.14,
+      "p50": 6.35,
+      "p75": 9.14,
+      "p95": 11.81,
+      "p99": 11.81,
+      "stdev": 2.9
+    },
+    "pass": "warm"
+  },
+  "speedup_x": 7.49
+}

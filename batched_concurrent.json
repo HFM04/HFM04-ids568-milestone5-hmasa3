@@ -1,0 +1,22 @@
+{
+  "label": "batched_concurrent_8",
+  "total_requests": 15,
+  "successful": 15,
+  "failed": 0,
+  "cached": 0,
+  "cache_hit_rate": 0.0,
+  "latency_ms": {
+    "min": 99.43,
+    "max": 109.34,
+    "mean": 104.52,
+    "median": 104.6,
+    "p50": 101.92,
+    "p75": 107.73,
+    "p95": 109.28,
+    "p99": 109.28,
+    "stdev": 3.78
+  },
+  "concurrency": 8,
+  "throughput_rps": 66.92,
+  "elapsed_s": 0.22
+}
